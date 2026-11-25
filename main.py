@@ -1,11 +1,11 @@
 """One Line, One Minute: the vending machine pickup line.
 
-Writes a single pickup line (146 characters) to /output/entry.txt.
+Writes a single pickup line (138 characters) to /output/entry.txt.
 Deterministic: the same line every run, no network, no randomness,
 no arguments, no input files.
 """
 
-LINE = "Hey, cutie — my coils have been spinning since you walked by. Press B4 and I'll drop something sweet for you. I promise I won't leave you hanging."
+LINE = "Hey, cutie — my coils have been spinning since you walked by. Press B4 and I'll drop something sweet. I promise I won't leave you hanging."
 
 # The gate only judges a file of 1 to 200 characters that is not only
 # white space, so refuse to write anything that would fail it.
